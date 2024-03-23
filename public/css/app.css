@@ -1,0 +1,180 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+.container{
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(24, 23, 23);
+}
+.nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    display: inline;
+    margin-right: 20px;
+}
+.nav-link{
+    color: rgb(8, 107, 74);
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: olive;
+    text-decoration: underline;
+}
+.container{
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type="number"]{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+select{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.mobile-inputs{
+    display: flex;
+    align-items: center;
+}
+.mobile-inputs select{
+    flex: 1;
+    margin-right: 10px;
+}
+.mobile-inputs input[type="number"]{
+    flex: 3;
+    margin-right: 10px;
+}
+.gender-hobby{
+    display: flex;
+    margin-bottom: 10px;
+}
+.gender-hobby{
+    margin-right: 10px;
+}
+input[type="file"]{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.submit-btn{
+    background-color: rgb(96, 96, 248);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: rgb(3, 3, 82);
+}
+.text-danger{
+    color: red;
+}
+.btn-edit{
+    background-color: rgb(101, 101, 232);
+    color: #fff;
+}
+.btn-edit:hover{
+    background-color: rgb(20, 20, 80);
+}
+.btn-edit, .btn-delete, .btn-back{
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-delete{
+    background-color: rgb(249, 31, 31);
+    color: #fff;
+}
+.btn-edit:hover{
+    background-color: rgb(81, 16, 16);
+}
+.btn-add{
+    display: inline-block;
+    background-color: rgb(66, 107, 5);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.btn-add:hover{
+    background-color: green;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td{
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #fae2e2;
+}
+th{
+    background-color: #f2fefe;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.btn-back{
+    background-color: rgb(5, 5, 13);
+    color: #fff;
+}
+.btn-edit:hover{
+    background-color: rgb(20, 20, 80);
+}
